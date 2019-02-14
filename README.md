@@ -1,6 +1,6 @@
 # Predicting-the-next-app-to-use.
 
-This is a Recurrent neural network model that helps to predict the next app a user might use based on his previous app usage data.
+This is a LSTM(Long-Short Term Memory)-Recurrent neural network model that helps to predict the next app a user might use based on his previous app usage data.
 The Dataset contains around 2000 time-based app usage data of the user in a week.
 Since only 36 apps were used by the user in that particular week, the prediction is limited to the 36 apps.
 
