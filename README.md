@@ -7,7 +7,7 @@ Since only 36 apps were used by the user in that particular week, the prediction
 Since I have already trained the model , " latest.h5" file contains the pre-trained weights for the model , so that you no need to re-train the model evereytime.
 "latest.json" file stores the model structure.
 
-The "model2.py" program can be directlye run by , first importing the dataset, then loading the "latest.h5"(weights) and "latest.json"(model)
+The "model2.py" program can be directly run by , first importing the dataset, then loading the "latest.h5"(weights) and "latest.json"(model)
 file.(which is present towards the end of the program), or you can run for yourself by trainning the model again.
 
 The same "dataset.csv" is divided into training and test data.
