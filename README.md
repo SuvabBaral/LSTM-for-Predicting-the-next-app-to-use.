@@ -15,3 +15,10 @@ Since our mobile phone's usually contain around 4 app suggestion space, we take 
 
 "actual_app_used" variable is a dataframe that contains the actual apps that were used by the user. And 
 "prediction" variable is a dataframe that  contains the predicted apps of the model during the same instance.
+
+
+Final Output-
+<p align="center">
+  <img src="https://github.com/SuvabBaral/LSTM-for-Predicting-the-next-app-to-use./blob/master/Output.png" width="800" height="390" title="Output">
+</p>
+
