@@ -1,14 +1,17 @@
 # Predicting-the-next-app-to-use.
 
 This is a LSTM(Long-Short Term Memory)-Recurrent neural network model that helps to predict the next app a user might use based on his previous app usage data.
-The Dataset contains around 2000 time-based app usage data of the user in a week.
+The Dataset contains around 2000 datapoints reflecting all the applications that were used by a user within 1 week.
+
 Since only 36 apps were used by the user in that particular week, the prediction is limited to the 36 apps.
 
-Since I have already trained the model , " latest.h5" file contains the pre-trained weights for the model , so that you no need to re-train the model evereytime.
-"latest.json" file stores the model structure.
+To reuse the already trained model:
 
-The "model2.py" program can be directly run by , first importing the dataset, then loading the "latest.h5"(weights) and "latest.json"(model)
-file.(which is present towards the end of the program), or you can run for yourself by trainning the model again.
+```python src/generateModel.py True```
+
+To generate and train a new model:
+
+```python src/generateModel.py```
 
 The same "dataset.csv" is divided into training and test data.
 Since our mobile phone's usually contain around 4 app suggestion space, we take the first 4(with the highest probability) predicted apps ,to test the accuracy of our model.
@@ -18,7 +21,4 @@ Since our mobile phone's usually contain around 4 app suggestion space, we take 
 
 
 Final Output-
-<p align="center">
-  <img src="https://github.com/SuvabBaral/LSTM-for-Predicting-the-next-app-to-use./blob/master/Output.png" width="800" height="390" title="Output">
-</p>
-
+<img src="https://github.com/SuvabBaral/LSTM-for-Predicting-the-next-app-to-use./blob/master/Output.png" width="800" height="390" title="Output">
